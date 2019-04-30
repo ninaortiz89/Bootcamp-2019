@@ -61,7 +61,9 @@ class Luces:                # esto es el docstring de la clase, seria como la do
             gpio.output(self.puerto,True)  #encendemos
             sleep(tiempo)                  #esperamos un tiempo
             gpio.output(self.puerto,False)
-            sleep(tiempo)
+            sleep(tiempo)   
+
+
 
 
 luces1=Luces("Dormitorio",led1) #instanciamos el objeto Luces y eenviamos los parametros ubicacion y el puerto a utilizar del gpio

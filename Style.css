@@ -218,7 +218,7 @@ main {
   right: -5px;
 }
 .car.car-green {
-  background-color: rgb(83, 169, 72);
+  background-color:green;
 }
 .car.car-yellow {
   background-color: #EDB92E;
@@ -690,3 +690,7 @@ input.passo1:checked + input.passo2:checked + input.passo3:checked + input.passo
   filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
   opacity: 1;
 }
+
+
+
+
